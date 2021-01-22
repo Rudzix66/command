@@ -1,0 +1,17 @@
+                PODSTAWOWE
+
+ls                      wyświetla zawartośc katalogu
+pwd                     wyświetla aktualne miejsce
+touch (touch plik.js)   tworzy plik
+mkdir (mkdir test)      tworzy katalog
+rm (rm plik.js)         usuwa plik
+cd (cd test)            wchodzenie do katalogu
+cd ..                   wychodzenie z aktualnego katalogu
+rm -r (rm -r test)      usuwanie katalogu
+
+                GIT
+git init                
+git status              status repozytrium
+
+                VISUAL STUDIO CODE
+code plik.js            otwiera Visual Studio Code i przechodzi do edycji podanego pliku
