@@ -1,16 +1,23 @@
-                PODSTAWOWE
-ls                      wyświetla zawartośc katalogu
-pwd                     wyświetla aktualne miejsce
-touch (touch plik.js)   tworzy plik
-mkdir (mkdir test)      tworzy katalog
-rm (rm plik.js)         usuwa plik
-cd (cd test)            wchodzenie do katalogu
-cd ..                   wychodzenie z aktualnego katalogu
-rm -r (rm -r test)      usuwanie katalogu
+                    PODSTAWOWE
+ls                          wyświetla zawartośc katalogu
+ls -a                       wyświetla wszystkie (nawet ukryte) pliki i katalogi
+pwd                         wyświetla aktualne miejsce
+touch (touch plik.js)       tworzy plik
+mkdir (mkdir test)          tworzy katalog
+rm (rm plik.js)             usuwa plik
+cd (cd test)                wchodzenie do katalogu
+cd ..                       wychodzenie z aktualnego katalogu
+rm -r (rm -r test)          usuwanie katalogu
 
-                GIT
-git init                
-git status              status repozytrium
+                    GIT
+git init                    tworzy repozytorium
+git status                  status repozytrium
+git add <nazwa pliku>       dodaje plik do trackowanie (rozpoczyna śledzenie pliku)
+git commit -m"nazwa"        comitowanie/dodawanie pliku do repozytorium (-m = message)
+git commit -am"nazwa"       dodaje plik do trackowanie (rozpoczyna śledzenie pliku), comitowanie/dodawanie pliku do repozytorium (-am = add, message)
+git log                     historia commitów w aktualnym branchu
+git rm --cached             usuwa plik ze śledzenia
 
-                VISUAL STUDIO CODE
-code plik.js            otwiera Visual Studio Code i przechodzi do edycji podanego pliku
+                    VISUAL STUDIO CODE
+code plik.js                otwiera Visual Studio Code i przechodzi do edycji podanego pliku
+code .                      otwiera Visual Studio Code
