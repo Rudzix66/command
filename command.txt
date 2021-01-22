@@ -1,5 +1,4 @@
                 PODSTAWOWE
-
 ls                      wyświetla zawartośc katalogu
 pwd                     wyświetla aktualne miejsce
 touch (touch plik.js)   tworzy plik
