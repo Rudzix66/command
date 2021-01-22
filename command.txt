@@ -1,23 +1,34 @@
-                    PODSTAWOWE
-ls                          wyświetla zawartośc katalogu
-ls -a                       wyświetla wszystkie (nawet ukryte) pliki i katalogi
-pwd                         wyświetla aktualne miejsce
-touch (touch plik.js)       tworzy plik
-mkdir (mkdir test)          tworzy katalog
-rm (rm plik.js)             usuwa plik
-cd (cd test)                wchodzenie do katalogu
-cd ..                       wychodzenie z aktualnego katalogu
-rm -r (rm -r test)          usuwanie katalogu
+                        PODSTAWOWE
+ls                              wyświetla zawartośc katalogu
+ls -a                           wyświetla wszystkie (nawet ukryte) pliki i katalogi
+pwd                             wyświetla aktualne miejsce
+touch (touch plik.js)           tworzy plik
+mkdir (mkdir test)              tworzy katalog
+rm (rm plik.js)                 usuwa plik
+cd (cd test)                    wchodzenie do katalogu
+cd ..                           wychodzenie z aktualnego katalogu
+rm -r (rm -r test)              usuwanie katalogu
 
-                    GIT
-git init                    tworzy repozytorium
-git status                  status repozytrium
-git add <nazwa pliku>       dodaje plik do trackowanie (rozpoczyna śledzenie pliku)
-git commit -m"nazwa"        comitowanie/dodawanie pliku do repozytorium (-m = message)
-git commit -am"nazwa"       dodaje plik do trackowanie (rozpoczyna śledzenie pliku), comitowanie/dodawanie pliku do repozytorium (-am = add, message)
-git log                     historia commitów w aktualnym branchu
-git rm --cached             usuwa plik ze śledzenia
+                        GIT PODSTAWA
+git init                        tworzy repozytorium
+git status                      status repozytrium
+git add                         dodaje plik do trackowanie (rozpoczyna śledzenie pliku)
+git commit -m""                 comitowanie/dodawanie pliku do repozytorium
+git commit -am""                dodaje plik do stagingu i odrazu comituje 
+git log                         historia commitów w aktualnym branchu
+git rm --cached                 usuwa plik ze śledzenia
+git add -A                      dodaje wszystkie plik z folderu do trackowanie (rozpoczyna śledzenie pliku)
 
-                    VISUAL STUDIO CODE
-code plik.js                otwiera Visual Studio Code i przechodzi do edycji podanego pliku
-code .                      otwiera Visual Studio Code
+            BRANCHE
+git branch                      pokazuje jakie mamy branche i aktualny branch
+git checkout -b""               tworzy nowego brancha      
+git checkout <nazwa brancha>    przełącza na podanego brancha
+git merge <nazwa brancha który chcemy połączyć z aktualnym branchem> przenoszenie zmian pomiędzy branchami
+
+            WYPYCHANIE ZMIAN DO ZEWNĘTRZNEGO REPOZYTORIUM
+git push                        wypycha zmiany do repozytorium (Musimy przejść na GitHuba utworzyć nowe repozytorium i skopiowac parę linijek które potem wklejamy do konsoli)
+
+
+                        VISUAL STUDIO CODE
+code plik.js                    otwiera Visual Studio Code i przechodzi do edycji podanego pliku
+code .                          otwiera Visual Studio Code
