@@ -7,7 +7,7 @@ mkdir test                      tworzy katalog
 rm plik.js                      usuwa plik
 cd test                         wchodzenie do katalogu
 cd ..                           wychodzenie z aktualnego katalogu
-rm -r (rm -r test)              usuwanie katalogu
+rm -r test                      usuwanie katalogu
 
                         GIT PODSTAWA
 git init                        tworzy repozytorium
