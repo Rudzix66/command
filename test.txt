@@ -1,0 +1,1 @@
+cześć, jestem plikiem testowym napisanym w vim
